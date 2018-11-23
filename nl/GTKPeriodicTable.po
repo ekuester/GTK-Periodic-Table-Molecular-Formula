@@ -1,0 +1,248 @@
+# Dutch translations for GTK-Periodic-Table-Molecular-Formula.
+# Copyright (C) 2018 Erich Küster, Krefeld/Germany
+# This file is distributed under the same license as the PACKAGE package.
+# Erich Küster <erich.kuester@arcor.de>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-23 15:21+0100\n"
+"PO-Revision-Date: 2018-11-25 17:22+0100\n"
+"Last-Translator: Erich Küster <erich.kuester@arcor.de>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+#: molecularformula.cpp:56
+msgid " Elementary Analysis:"
+msgstr "Elementar-analyse"
+
+#: elementproperty.cpp:89
+msgid "\">Wikipedia</a> article"
+msgstr "\">Wikipedia</a> artikel"
+
+#: elementproperty.h:66
+msgid "Atomic Radius [pm]"
+msgstr "Atoomstraal [pm]"
+
+#: elementproperty.h:75
+msgid "Boiling Point [K]"
+msgstr "Kookpunkt [K]"
+
+#: molecularformula.h:45
+msgid "Bond sign misplaced here"
+msgstr "Bindingsteken verkeert geplaatst"
+
+#: elementproperty.h:73
+msgid "Bonding Type"
+msgstr "Bindingstype"
+
+#: periodictablewindow.cpp:197
+msgid "COMMENTS"
+msgstr "COMMENTAREN"
+
+#: periodictablewindow.cpp:52
+msgid "Calc"
+msgstr "Calc"
+
+#: periodictablewindow.cpp:57
+msgid "Close"
+msgstr "Sluiten"
+
+#: molecularformula.h:46
+msgid "Closing ) missing"
+msgstr "Sluitend ) misst"
+
+#: molecularformula.h:47
+msgid "Closing ] missing"
+msgstr "Sluitend ] misst"
+
+#: periodictablewindow.cpp:189
+msgid "Copyright © 2018 Erich Küster. All rights reserved."
+msgstr "Copyright © 2018 Erich Küster. Alle rechten voorbehouden."
+
+#: elementproperty.h:76
+msgid "Density [g/mL]"
+msgstr "Dichtheid [g/mL]"
+
+#: periodictablewindow.cpp:205
+msgid "Dmitri Ivanovich Mendeleev, Saint Petersburg/Russia"
+msgstr "Dmitri Ivanovitsj Mendelejev, Sint-Petersburg/Rusland"
+
+#: elementproperty.h:70
+msgid "Electronaffinity"
+msgstr "Elektro-affiniteit"
+
+#: elementproperty.h:65
+msgid "Electronegativity"
+msgstr "Elektronegativiteit"
+
+#: elementproperty.h:64
+msgid "Electronic Configuration"
+msgstr "Elektronenconfiguratie"
+
+#: molecularformula.h:42
+msgid "Element symbol expected"
+msgstr "Element-symbool verwacht"
+
+#: molecularformula.cpp:133
+msgid "Error: Check input"
+msgstr "Fout: controleer invoer"
+
+#: periodictablewindow.cpp:43
+msgid "Exit"
+msgstr "Verlaten"
+
+#: molecularformula.cpp:52
+msgid "Formula:"
+msgstr "Formule:"
+
+#: elementproperty.h:77
+msgid "Group, Block"
+msgstr "Groep, blok"
+
+#: elementproperty.cpp:26
+msgid "Gtk+: Application - Element Properties"
+msgstr "Gtk+: Applicatie - Elementeigenschapen"
+
+#: molecularformula.cpp:66
+msgid "Gtk+: Calculator - Molecular Formula"
+msgstr "Gtk+: Calculator - Somformule"
+
+#: periodictablewindow.cpp:15
+msgid "Gtk+: Chemistry Application - Periodic Table · Element Properties · Molecular Weight"
+msgstr "Gtk+: Applicatie voor Scheikundige - Periodiek Systeem · Elementeigenschapen · Moleculairgewicht"
+
+#: periodictablewindow.cpp:64
+msgid "Help"
+msgstr "Hulp"
+
+#: periodictablewindow.cpp:206
+msgid "IUPAC, International Union of Pure and Applied Chemistry"
+msgstr "IUPAC, Internationale Unie voor Zuivere en Toegepaste Scheikunde"
+
+#: molecularformula.h:48
+msgid "Index 0 not allowed"
+msgstr "Index 0 niet veroorlofd"
+
+#: periodictablewindow.cpp:65
+msgid "Info"
+msgstr "Erover"
+
+#: elementproperty.h:67
+msgid "Ion Radius [pm]"
+msgstr "Ion-straal [pm]"
+
+#: elementproperty.h:69
+msgid "Ionization Energy"
+msgstr "Ionisatiepotentiaal"
+
+#: periodictablewindow.cpp:191
+msgid "LICENSE"
+msgstr "Licentie"
+
+#: elementproperty.h:62
+msgid "Mass"
+msgstr "Massa"
+
+#: elementproperty.h:74
+msgid "Melting Point [K]"
+msgstr "Smeltpunt [K]"
+
+#: molecularformula.cpp:54
+msgid "Molar mass:"
+msgstr "Moleculairgewicht:"
+
+#: molecularformula.h:49
+msgid "Molecular weight is too big"
+msgstr "Moleculairgewicht te groot"
+
+#: elementproperty.h:61
+msgid "Name"
+msgstr "Naam"
+
+#: molecularformula.h:41
+msgid "No formula entered"
+msgstr "Geen formule ingegeven"
+
+#: molecularformula.h:43
+msgid "No valid element symbol (actual not in table)"
+msgstr "Geen geldig element-symbool (niet voorhanden)"
+
+#: periodictablewindow.cpp:54
+msgid "Open"
+msgstr "Openen"
+
+#: elementproperty.h:59
+msgid "Ordinal"
+msgstr ""
+
+#: molecularformula.cpp:53
+msgid "Overall formula:"
+msgstr "Somformule:"
+
+#: elementproperty.h:71
+msgid "Oxidation States"
+msgstr "Oxidatietoestanden"
+
+#: periodictablewindow.cpp:190
+msgid "Periodic Table and Molecular Formula for Chemists"
+msgstr "Periodiek Systeem en Molecuulformule voor Scheikundige"
+
+#: molecularformula.h:40
+msgid "Place holder, no error"
+msgstr "Plaatshouder, geen fout"
+
+#: elementproperty.h:79
+msgid "Source URL"
+msgstr "URL van herkomst"
+
+#: elementproperty.h:72
+msgid "State @RT"
+msgstr "Toestand @RT"
+
+#: elementproperty.h:60
+msgid "Symbol"
+msgstr "Symbool"
+
+#: periodictablewindow.cpp:42
+msgid "Table"
+msgstr "Tabel"
+
+#: molecularformula.h:44
+msgid "Too many bond signs"
+msgstr "Te veel bindingsteken"
+
+#: periodictablewindow.cpp:253
+msgid "Unexpected response!"
+msgstr "Antwoord niet so verwacht"
+
+#: periodictablewindow.cpp:188
+msgid "Version 1.5.1"
+msgstr "Version 1.5.1"
+
+#: elementproperty.h:78
+msgid "Year of Discovery"
+msgstr "Jaar van ontdekking"
+
+#: elementproperty.h:63
+msgid "cpkHexColor"
+msgstr "cpkHexKleur"
+
+#: periodictablewindow.cpp:201
+msgid "gtkmm Website - C++ Interfaces for GTK+ and GNOME"
+msgstr ""
+
+#: elementproperty.cpp:88
+msgid "see <a href=\""
+msgstr "zie <a href=\""
+
+#: elementproperty.h:68
+msgid "van der Waals Radius [pm]"
+msgstr "van der Waals straal [pm]"

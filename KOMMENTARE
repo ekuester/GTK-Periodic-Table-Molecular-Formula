@@ -1,0 +1,11 @@
+Das Programm wurde geschrieben für die frühere Firma
+Chemische Fabrik Stockhausen GmbH, Krefeld 1993 - 2000,
+es kann jetzt ohne jede Einschränkungen von jedermann auf PCs
+benutzt werden. Eine Weitergabe an dritte Personen ist erlaubt.
+In einem letzten Schritt wurde zum besseren Verständnis
+das Periodensystem der Elemente PSE hinzugefügt.
+
+entwickelt in BASIC, C, C#, Objective C, Swift and C++
+zunächst für Stockhausen GmbH, Krefeld,
+beginnend im Jahr 1993, fortgeführt bis heute.
+C++ Gnome GTK+ mit gtkmm wrapper, Oktober 2018
