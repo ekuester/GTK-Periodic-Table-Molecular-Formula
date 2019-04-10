@@ -7,6 +7,7 @@ The program itself consists of three parts: The table of the periodic system of 
 For further explanations look at<br/>
 &nbsp; <https://nl.wikipedia.org/wiki/Periodiek_systeem> in dutch<br/>
 &nbsp; <https://en.wikipedia.org/wiki/Periodic_table> in english<br/>
+&nbsp; <https://fr.wikipedia.org/wiki/Tableau_p%C3%A9riodique_des_%C3%A9l%C3%A9ments> in french<br/>
 &nbsp; <https://de.wikipedia.org/wiki/Periodensystem> in german<br/>
 &nbsp; <https://it.wikipedia.org/wiki/Tavola_periodica_degli_elementi> in italian <br/>
 
@@ -28,7 +29,8 @@ I wrote this program to become familiar with the C++ language, especially the GT
 Very interesting in GTK 3.0 is the mode of setting colors in widgets: First place to go is<br/>
 &nbsp; <https://developer.gnome.org/gtk3/stable/chap-css-overview.html><br/>
 It is essential to generate the necessary CSS data in the right syntax.<br/>
-Learning the Linux way of localization the dutch/german/italian translation files are added in subdirectories. Under Fedora the right system folder should be /usr/share/locale, but only if you change line 7 in main.cpp to<br/>
+Printing of the table is possible, you will learn to use an Gtk::OffscreenWindow for that.<br/>
+Learning the Linux way of localization the dutch/french/german/italian translation files are added in subdirectories. Under Fedora the right system folder should be /usr/share/locale, but only if you change line 7 in main.cpp to<br/>
 ```
 #define PROGRAMNAME_LOCALEDIR "/usr/share/locale"
 ```
@@ -69,6 +71,9 @@ For further explanations look at<br/>
 
 Annotation:<br/>
 For homology I changed the name of the halogens to end with -inum to match more the official names of IUPAC.
+
+Acknowledgements:
+Special thanks go to the people in the developer community at StackOverflow. Without their help and answered questions at <https://stackoverflow.com/> this work would not be possible.
 
 Disclaimer: Use the program for what purpose you like, but hold in mind, that I will not be responsible for any harm it will cause to your hard- or software. It was your decision to use this piece of software.
 

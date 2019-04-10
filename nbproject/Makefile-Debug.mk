@@ -40,7 +40,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/formulaparser.o \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/molecularformula.o \
-	${OBJECTDIR}/periodictablewindow.o
+	${OBJECTDIR}/periodictablewindow.o \
+	${OBJECTDIR}/printformoperation.o
 
 
 # C Compiler Flags
@@ -61,11 +62,11 @@ LDLIBSOPTIONS=`pkg-config --libs gtkmm-3.0`
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/gtkperiodictable
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/gtk-periodic-table-molecular-formula
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/gtkperiodictable: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/gtk-periodic-table-molecular-formula: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/gtkperiodictable ${OBJECTFILES} ${LDLIBSOPTIONS}
+	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/gtk-periodic-table-molecular-formula ${OBJECTFILES} ${LDLIBSOPTIONS}
 
 ${OBJECTDIR}/elementproperty.o: elementproperty.cpp
 	${MKDIR} -p ${OBJECTDIR}
@@ -96,6 +97,11 @@ ${OBJECTDIR}/periodictablewindow.o: periodictablewindow.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g `pkg-config --cflags gtkmm-3.0` -std=c++11  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/periodictablewindow.o periodictablewindow.cpp
+
+${OBJECTDIR}/printformoperation.o: printformoperation.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g `pkg-config --cflags gtkmm-3.0` -std=c++11  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/printformoperation.o printformoperation.cpp
 
 # Subprojects
 .build-subprojects:

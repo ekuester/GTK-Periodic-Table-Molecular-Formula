@@ -1,14 +1,23 @@
-/* 
-// File:   molecularformula.cpp
-// Author: kuestere
+/*
+//  Part of GTKPeriodicTable - Periodic Table of the Elements
+//  Copyright (C) 2018  Erich Küster
 //
-//             Molecular Formula
-//            Summenformel V 1.5.1
-//  Created by Erich Kuester, Krefeld, Germany
-//     The program was developed for the
-//  former company Chemische Fabrik Stockhausen
-//     GmbH, Krefeld by Dr. E. Kuester 1993
-//      initially command line version
+//  This program is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+//
+//  This program is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+//
+//  You should have received a copy of the GNU General Public License
+//  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+//
+//  File:   molecularformula.cpp
+//          Summenformel V 1.5.2
+//       1993 initially command line version
 // 15.12.1993 Englische Version mit defines
 // 20.03.1995 V 1.3.3  Eingabepuffer größer
 // 26.06.1995 V 1.3.31 Puffer noch groesser
@@ -31,18 +40,19 @@
 //        GUI-Version in C++
 // 27.09.2018 V 1.4.3 IDE Netbeans 8.2, GTK+ mit gtkmm wrapper
 // 30.10.2018 V 1.5.1 completed with Periodic Table in a window
+// 28.02.2019 V 1.5.2 some translations and switch-over to autotools
 //  Created by Erich Kuester, Krefeld, Germany
-//    Copyright © 2014 - 2018 Erich Kuester.
+//    Copyright © 2014 - 2019 Erich Kuester.
 //            All rights reserved.
 //
-// for bonds: "-" ":" "=" "." ""
-// for complex formulas "[" "]" "(" ")"
-// for hydration water, Eisenheptahydrate = FeSO4.[H2O]7
-// 
-// renewed on September 27, 2018 at 18:36
-//    Copyright © 2014 - 2018 Erich Kuester.
-//            All rights reserved.
-// Last changes on October 31, 2018
+//  for bonds: "-" ":" "=" "." ""
+//  for complex formulas "[" "]" "(" ")"
+//  for hydration water, Eisenheptahydrate = FeSO4.[H2O]7
+//
+//  renewed on September 27, 2018 at 18:36
+//  Copyright © 2014 - 2019 Erich Kuester.
+//      All rights reserved.
+//  Last changes on October 31, 2018
  */
 
 #include "molecularformula.h"
@@ -135,7 +145,9 @@ int MolecularFormula::errorAlert(int messageNumber) {
         Gtk::MESSAGE_ERROR,\
         Gtk::BUTTONS_OK, // Gtk::BUTTONS_OK, Gtk::BUTTONS_NONE,
         true);
-    dialog.set_secondary_text(m_StatusMessages[messageNumber]);
+	// intermediate step to translate the status message
+	const char* message = _(m_StatusMessages[messageNumber].data());
+    dialog.set_secondary_text(message);
     return dialog.run();
 }
 

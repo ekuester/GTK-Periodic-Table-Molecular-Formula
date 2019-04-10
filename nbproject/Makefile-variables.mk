@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
-CND_ARTIFACT_NAME_Debug=gtkperiodictable
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/gtkperiodictable
+CND_ARTIFACT_NAME_Debug=gtk-periodic-table-molecular-formula
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/gtk-periodic-table-molecular-formula
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
-CND_PACKAGE_NAME_Debug=gtkperiodictable.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/gtkperiodictable.tar
+CND_PACKAGE_NAME_Debug=gtk-periodic-table-molecular-formula.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/gtk-periodic-table-molecular-formula.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
-CND_ARTIFACT_NAME_Release=gtkperiodictable
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/gtkperiodictable
+CND_ARTIFACT_NAME_Release=gtk-periodic-table-molecular-formula
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/gtk-periodic-table-molecular-formula
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
-CND_PACKAGE_NAME_Release=gtkperiodictable.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/gtkperiodictable.tar
+CND_PACKAGE_NAME_Release=gtk-periodic-table-molecular-formula.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/gtk-periodic-table-molecular-formula.tar
 #
 # include compiler specific variables
 #

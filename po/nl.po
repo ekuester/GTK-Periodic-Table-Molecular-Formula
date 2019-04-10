@@ -1,15 +1,15 @@
-# Dutch translations for GTK-Periodic-Table-Molecular-Formula.
-# Copyright (C) 2018 Erich Küster, Krefeld/Germany
-# This file is distributed under the same license as the PACKAGE package.
+# Translations for Periodic-Table-Molecular-Formula, dutch version.
+# Copyright (C) 2018 Erich Küster
+# This file is distributed under the same license as the Periodic-Table-Molecular-Formula package.
 # Erich Küster <erich.kuester@arcor.de>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Periodic-Table-Molecular-Formula 1.6.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-23 15:21+0100\n"
-"PO-Revision-Date: 2018-11-25 17:22+0100\n"
+"PO-Revision-Date: 2019-04-03 21:41+0100\n"
 "Last-Translator: Erich Küster <erich.kuester@arcor.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -21,11 +21,15 @@ msgstr ""
 
 #: molecularformula.cpp:56
 msgid " Elementary Analysis:"
-msgstr "Elementar-analyse"
+msgstr " Elementar-analyse"
 
 #: elementproperty.cpp:89
 msgid "\">Wikipedia</a> article"
 msgstr "\">Wikipedia</a> artikel"
+
+#: periodictablewindow.cpp:98
+msgid "About"
+msgstr "Erover"
 
 #: elementproperty.h:66
 msgid "Atomic Radius [pm]"
@@ -43,15 +47,15 @@ msgstr "Bindingsteken verkeert geplaatst"
 msgid "Bonding Type"
 msgstr "Bindingstype"
 
-#: periodictablewindow.cpp:197
+#: periodictablewindow.cpp:251
 msgid "COMMENTS"
 msgstr "COMMENTAREN"
 
 #: periodictablewindow.cpp:52
 msgid "Calc"
-msgstr "Calc"
+msgstr "Rekener"
 
-#: periodictablewindow.cpp:57
+#: periodictablewindow.cpp:77
 msgid "Close"
 msgstr "Sluiten"
 
@@ -63,7 +67,7 @@ msgstr "Sluitend ) misst"
 msgid "Closing ] missing"
 msgstr "Sluitend ] misst"
 
-#: periodictablewindow.cpp:189
+#: periodictablewindow.cpp:245
 msgid "Copyright © 2018 Erich Küster. All rights reserved."
 msgstr "Copyright © 2018 Erich Küster. Alle rechten voorbehouden."
 
@@ -71,9 +75,9 @@ msgstr "Copyright © 2018 Erich Küster. Alle rechten voorbehouden."
 msgid "Density [g/mL]"
 msgstr "Dichtheid [g/mL]"
 
-#: periodictablewindow.cpp:205
-msgid "Dmitri Ivanovich Mendeleev, Saint Petersburg/Russia"
-msgstr "Dmitri Ivanovitsj Mendelejev, Sint-Petersburg/Rusland"
+#: periodictablewindow.cpp:260
+msgid "Dmitri Ivanovich Mendeleev, Saint Petersburg / Russia, 6 March 1869"
+msgstr "Dmitri Ivanovitsj Mendelejev, Sint-Petersburg / Rusland, 6 maart 1869"
 
 #: elementproperty.h:70
 msgid "Electronaffinity"
@@ -91,13 +95,17 @@ msgstr "Elektronenconfiguratie"
 msgid "Element symbol expected"
 msgstr "Element-symbool verwacht"
 
+#: periodictablewindow.cpp:275
+msgid "Erich Küster, Krefeld / Germany"
+msgstr "Erich Küster, Krefeld / Duitsland"
+
 #: molecularformula.cpp:133
 msgid "Error: Check input"
 msgstr "Fout: controleer invoer"
 
-#: periodictablewindow.cpp:43
+#: periodictablewindow.cpp:63
 msgid "Exit"
-msgstr "Verlaten"
+msgstr "Afsluiten"
 
 #: molecularformula.cpp:52
 msgid "Formula:"
@@ -115,25 +123,21 @@ msgstr "Gtk+: Applicatie - Elementeigenschapen"
 msgid "Gtk+: Calculator - Molecular Formula"
 msgstr "Gtk+: Calculator - Somformule"
 
-#: periodictablewindow.cpp:15
+#: periodictablewindow.cpp:30
 msgid "Gtk+: Chemistry Application - Periodic Table · Element Properties · Molecular Weight"
 msgstr "Gtk+: Applicatie voor Scheikundige - Periodiek Systeem · Elementeigenschapen · Moleculairgewicht"
 
-#: periodictablewindow.cpp:64
+#: periodictablewindow.cpp:84
 msgid "Help"
 msgstr "Hulp"
 
-#: periodictablewindow.cpp:206
+#: periodictablewindow.cpp:261
 msgid "IUPAC, International Union of Pure and Applied Chemistry"
 msgstr "IUPAC, Internationale Unie voor Zuivere en Toegepaste Scheikunde"
 
 #: molecularformula.h:48
 msgid "Index 0 not allowed"
 msgstr "Index 0 niet veroorlofd"
-
-#: periodictablewindow.cpp:65
-msgid "Info"
-msgstr "Erover"
 
 #: elementproperty.h:67
 msgid "Ion Radius [pm]"
@@ -143,7 +147,7 @@ msgstr "Ion-straal [pm]"
 msgid "Ionization Energy"
 msgstr "Ionisatiepotentiaal"
 
-#: periodictablewindow.cpp:191
+#: periodictablewindow.cpp:247
 msgid "LICENSE"
 msgstr "Licentie"
 
@@ -175,7 +179,7 @@ msgstr "Geen formule ingegeven"
 msgid "No valid element symbol (actual not in table)"
 msgstr "Geen geldig element-symbool (niet voorhanden)"
 
-#: periodictablewindow.cpp:54
+#: periodictablewindow.cpp:64
 msgid "Open"
 msgstr "Openen"
 
@@ -191,6 +195,10 @@ msgstr "Somformule:"
 msgid "Oxidation States"
 msgstr "Oxidatietoestanden"
 
+#: periodictablewindow.cpp:65
+msgid "Page Setup"
+msgstr "Pagina-instellingen"
+
 #: periodictablewindow.cpp:190
 msgid "Periodic Table and Molecular Formula for Chemists"
 msgstr "Periodiek Systeem en Molecuulformule voor Scheikundige"
@@ -198,6 +206,18 @@ msgstr "Periodiek Systeem en Molecuulformule voor Scheikundige"
 #: molecularformula.h:40
 msgid "Place holder, no error"
 msgstr "Plaatshouder, geen fout"
+
+#: periodictablewindow.cpp:68
+msgid "Print Preview"
+msgstr "Afdrukvoorbeeld"
+
+#: periodictablewindow.cpp:71
+msgid "Print..."
+msgstr "Afdrukken..."
+
+#: periodictablewindow.cpp:42
+msgid "Snapshot"
+msgstr "Scherm afdruk"
 
 #: elementproperty.h:79
 msgid "Source URL"
@@ -217,15 +237,15 @@ msgstr "Tabel"
 
 #: molecularformula.h:44
 msgid "Too many bond signs"
-msgstr "Te veel bindingsteken"
+msgstr "Te veel bindingstekens"
 
-#: periodictablewindow.cpp:253
+#: periodictablewindow.cpp:339
 msgid "Unexpected response!"
 msgstr "Antwoord niet so verwacht"
 
-#: periodictablewindow.cpp:188
-msgid "Version 1.5.1"
-msgstr "Version 1.5.1"
+#: periodictablewindow.cpp:190
+msgid "Version 1.6.0"
+msgstr "Version 1.6.0"
 
 #: elementproperty.h:78
 msgid "Year of Discovery"
@@ -235,9 +255,13 @@ msgstr "Jaar van ontdekking"
 msgid "cpkHexColor"
 msgstr "cpkHexKleur"
 
-#: periodictablewindow.cpp:201
+#: periodictablewindow.cpp:257
 msgid "gtkmm Website - C++ Interfaces for GTK+ and GNOME"
-msgstr ""
+msgstr "gtkmm Website - C++ Interfaces for GTK+ and GNOME"
+
+#: periodictablewindow.cpp:193
+msgid "legend-EN-464x144.svg"
+msgstr "legend-NL-464x144.svg"
 
 #: elementproperty.cpp:88
 msgid "see <a href=\""
@@ -246,3 +270,7 @@ msgstr "zie <a href=\""
 #: elementproperty.h:68
 msgid "van der Waals Radius [pm]"
 msgstr "van der Waals straal [pm]"
+
+#: periodictablewindow.cpp:172
+msgid "··· Periodic Table of the Elements ···"
+msgstr "··· Periodiek Systeem der Elementen ···"

@@ -1,8 +1,22 @@
-/* 
- * File:   elementproperty.h
- * Author: kuestere
- *
- * Created on 7. November 2018, 22:31
+/*
+//  Part of GTKPeriodicTable - Periodic Table of the Elements
+//  Copyright (C) 2018  Erich Küster
+//
+//  This program is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+//
+//  This program is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+//
+//  You should have received a copy of the GNU General Public License
+//  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+//
+//  File:   elementproperty.h
+//  Created on November 7, 2018, 22:31
  */
 
 #ifndef ELEMENTPROPERTYWINDOW_H

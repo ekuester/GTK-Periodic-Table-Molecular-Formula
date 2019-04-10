@@ -1,0 +1,7 @@
+# List of source files which contain translatable strings.
+elementproperty.h
+elementproperty.cpp
+molecularformula.h
+molecularformula.cpp
+periodictablewindow.cpp
+

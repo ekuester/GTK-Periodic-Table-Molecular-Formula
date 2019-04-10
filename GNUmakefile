@@ -3,7 +3,7 @@ PROGRAM = GTKPeriodicTable
 CXX= g++
 CXXSOURCES=\
 	main.cpp elementproperty.cpp elementschema.cpp formulaparser.cpp molecularformula.cpp\
-	periodictablewindow.cpp
+	periodictablewindow.cpp printformoperation.cpp
 CXXOBJECTS = $(CXXSOURCES:.cpp=.o)
 OPTIONFLAGS= -g -O
 PACKAGES= gtkmm-3.0

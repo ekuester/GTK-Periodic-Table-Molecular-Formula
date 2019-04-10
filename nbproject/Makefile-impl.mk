@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=GTKPeriodicTable
+PROJECTNAME=GTK-Periodic-Table-Molecular-Formula
 
 # Active Configuration
 DEFAULTCONF=Debug
